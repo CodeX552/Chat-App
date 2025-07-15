@@ -11,7 +11,7 @@ const ChatContainer = ({ selectedUser, setSelectedUser }) => {
           <span className="w-2 h-2 rounded-full bg-green-500"></span>
         </p>
         <img onClick={() => setSelectedUser(null)} src={assets.arrow_icon} alt="Back" className='md:hidden max-w-7 cursor-pointer' />
-        <img src={assets.help_icon} alt="Help" className='max-md:hidden max-w-5' />
+        <img src={assets.help_icon} alt="Help" className='max-md:hidden max-w-6' />
       </div>
       <div className='flex flex-col h-[calc(100%-120px)] overflow-y-scroll p-3 pb-6'>
         {messagesDummyData.map((msg, index) => (
